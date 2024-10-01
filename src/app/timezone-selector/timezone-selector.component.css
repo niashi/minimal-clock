@@ -1,0 +1,9 @@
+div {
+    display: flex;
+    flex-direction: column;
+}
+
+select {
+    margin: auto;
+    margin-top: 10px;
+}

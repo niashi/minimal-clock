@@ -1,0 +1,20 @@
+.app-container {
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f1f1f1;
+}
+
+.clock {
+    font-size: 3rem;
+    margin-top: 20px;
+}
+
+.timezone-selector {
+    margin-bottom: 20px;
+}

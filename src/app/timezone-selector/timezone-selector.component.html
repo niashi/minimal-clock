@@ -1,0 +1,9 @@
+<div class="timezone-selector">
+  <label for="timezone">Timezone:</label>
+  <!-- Every time an option is selected (at the trigger of change event), onTimezoneChange() will be called with the parameter '$event', that is, with an object containing metadata (details) of the event (which option was selected, its value etc.). -->
+  <select id="timezone" (change)="onTimezoneChange($event)">
+    <option *ngFor="let timezone of timezones" [value]="timezone.value">
+      {{ timezone.name }}
+    </option>
+  </select>
+</div>
